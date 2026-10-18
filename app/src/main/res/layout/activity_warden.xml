@@ -1,0 +1,93 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F7F5F5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A92D36"
+        android:padding="22dp"
+        android:text="HostelConnect | Warden"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/wardenWelcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello, Warden"
+                android:textColor="#252525"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingBottom="18dp" />
+
+            <Button
+                android:id="@+id/wardenComplaintsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Manage Complaints" />
+
+            <Button
+                android:id="@+id/wardenMessButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Mess Menu" />
+
+            <Button
+                android:id="@+id/wardenPestButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Pest Control" />
+
+            <Button
+                android:id="@+id/wardenLaundryButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update Laundry Schedule" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:orientation="horizontal"
+        android:background="#A92D36">
+
+        <Button
+            android:id="@+id/wardenHomeButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Home"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#A92D36" />
+
+        <Button
+            android:id="@+id/wardenAboutButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="About"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#A92D36" />
+
+    </LinearLayout>
+
+</LinearLayout>
